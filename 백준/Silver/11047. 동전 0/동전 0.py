@@ -1,13 +1,13 @@
 N, K = map(int, input().split())
 
 coin = []
-cnt = 0
+count = 0
 
-for i in range(N) :
+for i in range(N):
     coin.insert(0, int(input()))
 
-for i in coin :
-    cnt += K // i
+for i in coin:
+    count += K // i
     K = K % i
 
-print(cnt)
+print(count)
