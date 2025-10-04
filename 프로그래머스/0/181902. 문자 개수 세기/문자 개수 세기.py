@@ -6,5 +6,4 @@ def solution(my_string):
         else:
             idx = ord(s) - 97 + 26
         answer[idx] += 1
-    
     return answer
